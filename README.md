@@ -22,7 +22,7 @@ O projeto utiliza semáforos para registrar eventos. Os eventos são entrada e s
 2) Funcionalidades da Matriz de Leds:
 - Mostra a contagem visual de passageiros com os leds correspondentes acesos.
 3) Funcionalidades da LEDs RGB:
-<br>Exibe uma cor para cada intervalo de contagem:<br>
+<br>Exibe uma cor para cada intervalo de contagem:
 - Azul: Contagem em 0
 - Verde: entre 0 e o máximo menos 2;
 - Amarelo: contagem em um a menos que o limite;
