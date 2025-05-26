@@ -19,8 +19,12 @@ O projeto utiliza semáforos para registrar eventos. Os eventos são entrada e s
 - Emite um beep quando o limite de passageiros é atingido.
 - Emite duplo beep quando o sistema é resetado.
 <br>
-2) Funcionalidades da Matriz de Leds:<br>
+<br>
+1) Funcionalidades da Matriz de Leds:<br>
 - Mostra a contagem visual de passageiros com os leds correspondentes acesos.
+<br>
+2) <br>
+- 
 <br>
 3) Funcionalidades da LEDs RGB:<br>
 Exibe uma cor para cada intervalo de contagem:<br>
