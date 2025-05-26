@@ -15,14 +15,14 @@ Andressa Sousa Fonseca
 
 O projeto utiliza semáforos para registrar eventos. Os eventos são entrada e saída de passageiros de um ônibus. Há um semáforo de contagem para registrar as entradas através da interrupção no botão A e outro para registrar as saídas com o Botão B. Cada vez que um evento é detectado no semáforo, a task responsável modifica a variável de quantidade de passageiros e tenta adquirir o mutex para atualizar o display imediamente após a modificação. Por sua vez, o botão do Joystick aciona o semáforo binário, que será capturado pela taskReset, responsável por  zerar a contagem. Outras funcionalidades inclue buzzer e matriz de leds.
 <br><br>
-Funcionalidades do buzzer:<br>
+###Funcionalidades do buzzer:<br>
 1) Emite um beep quando o limite de passageiros é atingido.
 2) Emite duplo beep quando o sistema é resetado.
 <br><br>
-Funcionalidades da Matriz de Leds:<br>
+###Funcionalidades da Matriz de Leds:<br>
 1) Mostra a contagem visual de passageiros com os leds correspondentes acesos.
 <br><br>
-Funcionalidades da LEDs RGB:<br>
+###Funcionalidades da LEDs RGB:<br>
 1) Exibe uma cor para cada intervalo de contagem:
 - Azul: Contagem em 0
 - Verde: entre 0 e o máximo menos 2;
